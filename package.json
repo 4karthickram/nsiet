@@ -1,0 +1,21 @@
+{
+  "name": "nsiet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node serverEntry.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "7.12.9",
+    "@babel/node": "7.12.6",
+    "@babel/preset-env": "7.12.7",
+    "body-parser": "1.19.0",
+    "csvtojson": "2.0.10",
+    "express": "4.17.1",
+    "nodemon": "2.0.6"
+  }
+}
